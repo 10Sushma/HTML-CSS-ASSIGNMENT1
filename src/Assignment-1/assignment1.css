@@ -2,6 +2,29 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
-}
+    width: 100%;
+    height: 100%;
+    }
+    .MY-LIST{
+        position: absolute; top: 0px
+    }
+    .row{
+        width: 100%;
+        display: block;
+        border: 1px solid;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .col{
+        width: 45%;
+        display: inline-block;
+        height: 100%;
+        
+        
+        vertical-align: middle;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+    }
+    
