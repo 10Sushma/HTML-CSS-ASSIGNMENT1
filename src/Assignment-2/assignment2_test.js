@@ -3,7 +3,7 @@
 // Example Quixote unit tests. We're using Mocha as our test framework and Chai for assertions.
 // These tests check the our media object CSS, which is defined in `assignment2.css`.
 
-(function () {
+(function (){
   "use strict";
 
   // Load an assertion library. You can use any assertion library you want. Here, we use a lightly-modified

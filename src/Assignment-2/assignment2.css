@@ -59,7 +59,7 @@ aside,#main-content-section,#right-sidebar-menu{
 .column {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
   }
   
   .left, .right {
@@ -71,7 +71,7 @@ aside,#main-content-section,#right-sidebar-menu{
     width: 50%;
   }
   
-  /* Clear floats after the columns */
+  
   .row:after {
     content: "";
     display: table;
