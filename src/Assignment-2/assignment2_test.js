@@ -3,7 +3,7 @@
 // Example Quixote unit tests. We're using Mocha as our test framework and Chai for assertions.
 // These tests check the our media object CSS, which is defined in `assignment2.css`.
 
-(function () {
+(function (){
   "use strict";
 
   // Load an assertion library. You can use any assertion library you want. Here, we use a lightly-modified
@@ -14,7 +14,7 @@
   var quixote = require("../../vendor/quixote.js");
 
   // Define a test suite using Mocha's standard `define` function.
-  describe("Assignment-2", function () {
+  describe.only("Assignment-2", function () {
     // Variables used by our tests. They're populated in the `before()` and `beforeEach()` functions.
     var frame; // The Quixote test frame.
     var container, frameDom; // The figure element inside the media object. (The icon.)
